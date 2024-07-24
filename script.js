@@ -18,7 +18,7 @@ createBtn.addEventListener("click", ()=>{
     let currentDate=new Date();
     const d1="    (      Date:" + currentDate.toDateString() + ")";
     notesContainer.appendChild(inputBox).appendChild(img);
-    // notesContainer.append(d1);
+    notesContainer.append(d1);
 })
 
 notesContainer.addEventListener("click" , function(e){
